@@ -5,18 +5,22 @@
 
 header {
     background-color: #333333;
-    min-height: 15em;
     color: white;
     padding-top: 1em;
-    padding-left: 1em;
 }
-
+header p{
+    min-height: 7em;
+    margin-left: 1em;
+}
 nav {
     background-color: #000000;
     color: white;
 }
 
-
+nav a{
+    color: white;
+    text-decoration: none;
+}
 
 main {
     display: grid;
