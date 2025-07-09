@@ -3,8 +3,9 @@
         grid-template-columns: auto auto;
     }
 
-    .container h1 {
+    #church {
         grid-column: 1/3;
+        
     }
 }
 
@@ -13,7 +14,7 @@
         grid-template-columns: auto auto auto;
     }
 
-    .container h1 {
+    #church {
         grid-column: 1/4;
     }
 }

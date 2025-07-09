@@ -1,6 +1,7 @@
-:root{
+:root {
     --primary-color: rgb(138, 205, 254);
 }
+
 * {
     margin: 0;
     font-family: "Roboto", Arial, Helvetica;
@@ -46,20 +47,28 @@ nav a {
     color: black;
 }
 
-main{
+main {
     max-width: 70em;
     margin: 0 auto;
 }
+
 .container img {
     width: 90%;
 }
 
+#church{
+    text-align: center;
+}
+h2{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
 
+}
 h1 {
-    font-size: 1.7em;
+    font-size: 1.7rem;
 }
 
-nav li:hover {
+nav a:hover {
     font-size: 1.1em;
     border-bottom: 10px solid rgb(0, 123, 150);
 
@@ -68,10 +77,10 @@ nav li:hover {
 button {
     background-color: transparent;
     border: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
-.container h1 {
+.container  {
     margin: 0.5em;
 }
 
