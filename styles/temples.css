@@ -1,0 +1,121 @@
+:root{
+    --primary-color: rgb(138, 205, 254);
+}
+* {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.5em;
+    margin: 0 0 0 0.5em;
+}
+
+header {
+    background-color: rgb(138, 205, 254);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    min-height: 5em;
+}
+
+.flex {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+main{
+    max-width: 70em;
+    margin: 0 auto;
+}
+.container img {
+    width: 90%;
+}
+
+
+h1 {
+    font-size: 1.7em;
+}
+
+nav li:hover {
+    font-size: 1.1em;
+    border-bottom: 10px solid rgb(0, 123, 150);
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+}
+
+.container h1 {
+    margin: 0.5em;
+}
+
+header button {
+    display: none;
+}
+
+.container figure {
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+
+}
+
+.active::before {
+    content: "📍";
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    min-height: 3em;
+    margin: 1em 0 0 0;
+}
+
+footer p {
+    margin: 0.5em 0 0 0;
+}
+
+#lastModified {
+    color: black;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+
+}
