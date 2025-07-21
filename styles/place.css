@@ -1,6 +1,7 @@
 :root {
 
     --primary-color: rgb(213, 72, 72);
+    --secondary-color: rgb(60, 142, 60);
 
 }
 
@@ -102,7 +103,7 @@ section li {
 picture {
     display: block;
     max-height: 70vh;
-    background-color: green;
+    background-color: var(--secondary-color);
     padding-top: 0.5em;
 
 }
