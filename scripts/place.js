@@ -1,4 +1,4 @@
-const temperature = -20;
+const temperature = 25;
 const wind_speed = 5;
 
 function calculateWindChill(temperature, wind_speed) {
