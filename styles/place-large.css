@@ -1,0 +1,81 @@
+@media screen and (min-width:800px) {
+    .section-container {
+        position: relative;
+    }
+
+    picture {
+        padding: 0;
+    }
+
+
+    .weather h2::after {
+        content: url('../images/weather.svg');
+        display: inline-block;
+        
+        vertical-align:middle;
+        width: 1.8em;
+    }
+
+    .h2-container img {
+        display: none;
+        
+    }
+
+    section ul {
+        margin-top: 0.6em;
+    }
+
+    .h2-container {
+        grid-template-columns: 1fr 1fr;
+        background-color: green;
+        position: absolute;
+        left: -0.4em;
+        max-width: 80%;
+        max-height: 4em;
+        align-content: center;
+        justify-content: left;
+        align-items: center;
+        top: 0.5em;
+    }
+
+
+    section {
+        position: absolute;
+        background-color: #f0f0f0;
+        padding: 4em 0 1em 0;
+        opacity: 0.9;
+    }
+
+    h2 {
+
+        width: 6em;
+        padding: 0.3em;
+        color: white;
+        text-align: left;
+
+
+    }
+
+
+    section span {
+        font-size: 0.9em;
+    }
+
+    .data {
+        top: 2em;
+        width: 19em;
+
+
+    }
+
+    .weather {
+        bottom: 1em;
+        right: 0;
+        width: 17em;
+    }
+
+    .weather {
+        border-top: none;
+    }
+
+}
