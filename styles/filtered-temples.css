@@ -1,0 +1,187 @@
+:root {
+    --primary-color: rgb(138, 205, 254);
+}
+
+* {
+    margin: 0;
+    
+    
+
+}
+
+nav li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.tab-temple{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid rgb(0, 0, 0,0.1);
+
+}
+.tab-temple .data{
+    justify-self: right;
+    color: purple;
+    font-size: smaller;
+
+}
+
+h1, h2{
+    font-family: "Roboto", Arial, Helvetica;
+}
+
+.tab-temple div:nth-last-of-type(1) span:nth-last-of-type(1)::after{
+    content: " sq ft";
+}
+.tab-temple figure{
+    padding-top: 1em;
+    
+    
+}
+.tab-temple .data{
+    font-family: "Courier New", Arial, Helvetica;
+}
+.tab-temple .value{
+    justify-self: left;
+    margin-left: 0.3em;
+}
+.tab-temple h2{
+    margin-bottom: 0.4em;
+}
+.tab-temple h2 , figure{
+    font-size: 1.5em;
+    
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0 0 0 0.5em;
+}
+
+header {
+    background-color: rgb(138, 205, 254);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    min-height: 5em;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.container img {
+    max-width: 90%;
+    box-shadow: 0 0 10px black;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+#church {
+    text-align: center;
+}
+
+h2 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+nav a:hover {
+    font-size: 1.1em;
+    border-bottom: 10px solid rgb(0, 123, 150);
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin: 0.5em;
+}
+
+header button {
+    display: none;
+}
+
+.container .tab-temple {
+    text-align: center;
+    margin: 0 0 1em 0;
+    max-width: 90%;
+    min-width: 90%;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+
+}
+
+.active::before {
+    content: "📍";
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    min-height: 3em;
+    margin: 1em 0 0 0;
+}
+
+footer p {
+    margin: 0.5em 0 0 0;
+}
+
+#lastModified {
+    color: black;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+
+}
