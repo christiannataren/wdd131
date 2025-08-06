@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form | BYU</title>
+    <meta name="description" content="BYU assignment: Using good practices when creating form elements.">
+    <meta name="author" content="Christian Nataren Laguna">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Product Review</h1>
+        <form action="review.html" method="GET">
+            <label>Product Name <span class="required">*</span>
+                <select name="products" id="products" required>
+                    <option value="" disabled selected>Choose a product...</option>
+                </select>
+            </label>
+            <div class="rating-container">
+                <span class="block head-text">Overall Rating</span>
+                <label><span class="block">⭐</span><input type="radio" name="rate" value="1"></label>
+                <label><span class="block">⭐⭐</span><input type="radio" name="rate" value="2"></label>
+                <label><span class="block">⭐⭐⭐</span><input type="radio" name="rate" value="3"></label>
+                <label><span class="block">⭐⭐⭐⭐</span><input type="radio" name="rate" value="4"></label>
+                <label id="last-radio"><span class="block">⭐⭐⭐⭐⭐</span><input type="radio" name="rate"
+                        value="5"></label>
+            </div>
+            <label>
+                Date of Installation:
+                <input type="date" name="installation-date" id="installation-date">
+            </label>
+
+            <div id="features-container">
+                <span class="block">Which features did you find useful in the product?</span>
+                <span class="block">(Check all that apply)</span>
+                <label><input type="checkbox" id="select-all">Select All</label>
+                <label><input type="checkbox" name="durability" id="durability">Durability</label>
+                <label><input type="checkbox" name="ease" id="ease">Ease of Use</label>
+                <label><input type="checkbox" name="performance" id="performance">Performance</label>
+                <label><input type="checkbox" name="design" id="design">Design</label>
+            </div>
+
+            <label>Written Review <span class="optional">(optional)</span> <textarea class="block" name="review"
+                    id="review"></textarea></label>
+            <label>Your Name <span class="optional">(optional)</span> <input type="text" name="username"
+                    id="username"></label>
+            <input type="submit" value="Post Review">
+
+
+        </form>
+    </main>
+
+
+
+    <footer>
+        <p>© <span id="currentyear"></span> | Christian Nataren Laguna | Mexico</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

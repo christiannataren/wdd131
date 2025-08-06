@@ -1,0 +1,177 @@
+:root {
+    --primary-color: #EAE4D5;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: black;
+    /* font-size: 1.3em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    min-height: 3em;
+    margin: 1em 0 0 0;
+}
+
+
+h1 {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 0.3em;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+html {
+    background-color: #B6B09F;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* margin-bottom: 0; */
+    margin: 0;
+}
+
+footer p {
+    margin: 0.5em 0 0 0;
+
+
+}
+
+#lastModified {
+    color: black;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+
+}
+
+/* form #last-radio{
+    display: block;
+} */
+
+main {
+    max-width: 35em;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #F2F2F2;
+    /* max-width: 100%; */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form select,
+form input[type="date"],
+form input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 44px;
+    /* margin-top: 0.2em; */
+}
+
+.optional {
+    font-size: smaller;
+    color: blueviolet;
+}
+
+
+.required {
+    font-size: smaller;
+    color: rgb(221, 60, 60);
+}
+
+textarea {
+    min-height: 6em;
+    margin-bottom: 1em;
+}
+
+#features-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+#features-container label {
+    display: block;
+}
+
+.block {
+    display: block;
+}
+
+
+
+
+
+form {
+    padding: 1em;
+
+    width: 100%;
+}
+
+form button {
+    display: block;
+}
+
+
+
+
+form input[type="checkbox"] {
+    margin-right: 0.6em;
+}
+
+.rating-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 3fr 4fr;
+    justify-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.rating-container label {
+    /* font-size: x-small; */
+    text-align: center;
+
+
+
+}
+
+label {
+    font-size: smaller;
+    font-weight: bold;
+    /* margin-top: 0.9em; */
+}
+
+.rating-container .head-text {
+    grid-column: 1 / 6;
+    /* text-align: left; */
+    justify-self: left;
+    font-weight: bold;
+    font-size: smaller;
+    /* background-color: aqua; */
+}
+
+form input[type="submit"] {
+    margin-top: 1em;
+    width: 100%;
+    min-height: 44px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#sent{
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--primary-color);
+}
