@@ -51,13 +51,13 @@ function select_all_features() {
     })
 }
 
-if (window.location.pathname == "/form.html") {
+if (window.location.pathname.includes("/form.html")) {
     let select = document.querySelector("#select-all");
     select.addEventListener("click", select_all_features);
     // select_all_features();
     fill_products(products);
 }
-if (window.location.pathname == "/review.html") {
+if (window.location.pathname.includes("review.html")) {
     // if (window.localStorage.)
     console.log(window.localStorage.getItem("visits"));
     let visits = parseInt(window.localStorage.getItem("visits"));
