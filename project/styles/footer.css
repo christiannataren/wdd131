@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    min-height: 3em;
+    margin: 1em 0 0 0;
+}
+
+footer p {
+    margin: 0.5em 0 0 0;
+}

@@ -1,0 +1,82 @@
+@media screen and (min-width:750px) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        max-width: 60em;
+        margin: 1em auto;
+    }
+
+    header {
+        grid-template-columns: 1fr 2fr 3fr;
+        align-items: center;
+
+    }
+    nav a{
+        font-size: 0.8em;
+    }
+
+    section{
+        min-width: 15em;
+    }
+    nav ul{
+        flex-direction: row;
+
+    }
+    nav a{
+        color: black;
+    }
+    nav{
+        display: block;
+        grid-column: auto;
+        background-color: initial;
+        grid-column: 3/4;
+        
+    }
+
+    .burguer-button {
+        display: none;
+    }
+    
+    header img,
+    h1 {
+        justify-self: center;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        /* grid-column: auto; */
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    header img{
+        max-width: 7em;
+    }
+
+    .hero section{
+       max-height: 16em;
+
+    }
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-column: 1 / 3;
+        width:100%;
+        min-height: 30em;
+        align-items: center;
+        background-image: url("../images/hero.jpg");
+        background-size: 100% auto;
+          background-repeat: no-repeat;
+        
+    }
+
+}
+
+@media screen and (min-width:900px) {
+
+    nav a{
+        font-size: 1em;
+    }
+
+}
